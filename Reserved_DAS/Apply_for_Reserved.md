@@ -16,14 +16,27 @@ Please make sure:
 
 Otherwise, we will not merge your pull requests.
 
-**Deadline July 10, 2021.**
+
+## Second Round of Applications（Deadline 2021-09-10）
 
 
+| The DAS account | Reserved for who   | **Why it should be reserved**                                |
+| --------------- | ----------------   | ------------------------------------------------------------ |
+| TokenPay.bit    | tokenpay.network   | Payment company in blockchain industry (unreleased yet)      |
+| visa.bit        | https://visa.com   | Visa is the world's second-largest card payment organization.|
+| TokenPay.bit    | tokenpay.network | Payment company in blockchain industry (unreleased yet)      |
+| element.bit     | https://element.market | Element is a worldwide decentralized Multi-Chain marketplace to Create, Discover, and Exchange NFTs. |
+| nftgo.bit       | https://nftgo.io | The most professional data provider and gateway for NFT ecosystem |
+| kollect.bit     | https://kollect.me | The first NFT marketplace on Nervos                          |
+| yin.bit     | https://yin.finance/     |  MULTI-STRATEGY LIQUIDITY OPTIMIZER |
+| mibao.bit | https://mibao.net | Compliance and easy to use , the original blockchain NFT platform |
+| HyperMate.bit     | www.hypermate.com     |  HyperMate is a subsidiary brand of HyperPay
+ |
+
+## First Round of Applications（closed！！！）
 
 | The DAS account | Reserved for who | **Why it should be reserved**                                |
 | --------------- | ---------------- | ------------------------------------------------------------ |
-| satoshi.bit     | Satoshi Nakamoto | Because I am Satoshi Nakamoto.                               |
-| google.bit      | https://google.com       | Google is a well-known search engine.                        |
 | wepiggy.bit     | https://WePiggy.com      | WePiggy is an open source, non-custodial crypto asset lending market protocol. |
 | abcwallet.bit   | https://abcwallet.com    | Well-known project in blockchain industry.                   |
 | das.bit         | https://da.systems       | Well-known project in blockchain industry.                   |
@@ -39,3 +52,22 @@ Otherwise, we will not merge your pull requests.
 | slowmist.bit    | https://slowmist.com/    | Well-known Blockchain Security Firm. |
 | starcoin.bit    | https://starcoin.org/    | Starcoin is an open source layered cryptocurrency and decentralized blockchain system. |
 | cobo.bit        | https://cobo.com         | Cobo provides crypto assets management services for individuals and organizations. |
+| signal.bit      | https://signal.org       |  "I use Signal every day." Edward Snowden |
+| imKey.bit       | https://imkey.im/        | subsidiary brand of imToken. |
+| telegram.bit    | https://telegram.org/    |  Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed. |
+| Viber.bit       | https://www.viber.com/   |  Free and secure calls and messages to anyone, anywhere |
+| skype.bit       | https://www.skype.com/   |  Well-known Communication software|
+| wire.bit        | https://wire.com/        |  The most secure collaboration platform |
+| threema.bit     | https://threema.ch/      |  The messenger that puts security and privacy first.|
+| dust.bit        | https://usedust.com/     |  THE APP THAT PROTECTS YOUR ASSETS |
+| wavec.bit       | https://wavec.cn/        |  A crypto gallery focus on NFT primary sale |
+| cryptoc.bit     | https://cryptoc.labs/    |  Well-known NFT community in blockchain  |
+| chainnews.bit   | https://chainnews.com/   |  Meida and research institute focus on crypto in China market.|
+| winkrypto.bit   | https://winkrypto.com/   |  Crypto marketing and PR service provider. |
+| block123.bit    | https://block123.com/    |  Crypto Wiki. |
+| chainnews.bit   | https://chainnews.com/   |  Meida and research institute focus on crypto in China market.｜
+| ckbfans.bit     | https://ckb.bihu.com/    |  Reserved for nervos Community.|
+| nervoscommunity.bit     | https://ckb.bihu.com/    |  Reserved for nervos Community.|
+| ckbcommunity.bit     | https://ckb.bihu.com/    |  Reserved for nervos Community.|
+| nervosfans.bit     | https://ckb.bihu.com/    |  Reserved for nervos Community.|
+| ckbbar.bit     | https://ckb.bihu.com/     |  币吧，the CKB Bar|

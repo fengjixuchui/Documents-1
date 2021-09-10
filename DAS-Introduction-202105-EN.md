@@ -1,10 +1,10 @@
 # DAS - Decentralized Account Services 
 
-May 2021 tim@da.services 
+May 2021 tim@da.systems
 
 [TOC]
 
-> DAS to the crypto world is like Email to the internet. 
+> DAS to the crypto world is what Phone/Email to the internet. 
 
 ## 1. Background
 
@@ -44,7 +44,7 @@ A decentralized identity protocol as a foundational component of Web 3.0 should 
 
 ## 2. DAS Overview
 
-DAS (Decentralized Account Services) is a decentralized identity system. Its basic units are DAS accounts. Technically, a DAS account has the following characteristics: 
+DAS (Decentralized Account Services) is a cross-chain decentralized identity system. Its basic units are DAS accounts. Technically, a DAS account has the following characteristics: 
 
 1. **Easy to read and easy to spell.** For example, Alice.bit, Bob.bit. 
 2. **It is created in a decentralized manner.** Anyone can create it anonymously, and once created, it cannot be destroyed.
@@ -57,7 +57,7 @@ DAS (Decentralized Account Services) is a decentralized identity system. Its bas
 
 A typical DAS account abstraction is as follows: 
 
-![image-20201104151517878](https://cdn.jsdelivr.net/gh/DA-Services/Documents/image-20201104151517878.png)
+![image-20210826175453193](image-20210826175453193.png)
 
 
 
@@ -75,11 +75,11 @@ The Owner and Manager are generally presented as one or more public keys. When m
 
 ## 3. User scenarios 
 
-DAS is not a modified version of ENS, although it has similarities to ENS in terms of account abstraction; DAS aims to be a decentralized identity protocol, not just a domain name system. In DAS's view, a domain name is just a special kind of identity, and the identity protocol itself has much larger applications than the domain name protocol. Not everyone needs a domain name, but everyone needs at least one decentralized identity.
+DAS is not a modified version of ENS, although it has similarities to ENS in terms of account abstraction; DAS aims to be a cross-chain decentralized identity protocol, not just a domain name system. In DAS's view, a domain name is just a special kind of identity, and the identity protocol itself has much larger applications than the domain name protocol. Not everyone needs a domain name, but everyone needs at least one decentralized identity.
 
 
 
-Here are some examples of DAS usage scenarios. It is important to note that once we have a stable and reliable decentralized identity protocol, there are many more scenarios that can be derived from it than the ones listed below.
+Here are some examples of DAS usage scenarios. It is important to note that once we have a stable and reliable cross-chain decentralized identity protocol, there are many more scenarios that can be derived from it than the ones listed below.
 
 
 
@@ -90,6 +90,14 @@ Suppose Alice.bit is parsed as shown in the previous figure. A user wants to sen
 
 
 Similarly, when a user transfers funds via a DAS-enabled wallet, the wallet will automatically display the recipient address if it has a matching DAS account. This gives the user a mechanism to double check the recipient address. It can effectively avoid transferring funds to the wrong person.
+
+### Cross-chain Reputation Aggregation
+
+More and more applications are focusing on the on-chain reputation of users. This means that a quantitative assessment of a user's reputation is made based on the past behavior of the user's address to determine what level of service to provide. In a multi-chain landscape, a user may have a very high reputation score on public chain A, while he is a new user on public chain B. Then, as an application on B public chain, it naturally wants to obtain the reputation of the user on A public chain in order to provide services that match it.
+
+
+
+DAS, as a cross-chain identity system, can naturally aggregate the reputation of users on each chain. For the application, what it can obtain is no longer the reputation of a user's certain address, but the aggregated reputation of all addresses of the user on all public chains.
 
 
 
@@ -220,7 +228,7 @@ This section briefly describes the key technical features of the DAS system, the
 
 ### Any public chain address can hold a DAS account
 
-Thanks to the custom cryptographic primitives feature of CKB, CKB can support placing the signature algorithm of any public chain on the CKB and using it for verification when necessary. For example, we can verify on the CKB that a user has provided a valid ETH private key signature for a piece of data. Further, if the ETH private key signature is verified to be valid, the state of the CKB can be modified. This is the principle of sending and receiving CKBs with ETH addresses, as implemented in the CKB.pw product. Based on this, we can extend it to manage any asset issued on CKB with any public chain address, including naturally NFT assets like the DAS accounts. This is a reflection of the high compatibility of DAS as a decentralized identity protocol.
+Thanks to the custom cryptographic primitives feature of CKB, CKB can support placing the signature algorithm of any public chain on the CKB and using it for verification when necessary. For example, we can verify on the CKB that a user has provided a valid ETH private key signature for a piece of data. Further, if the ETH private key signature is verified to be valid, the state of the CKB can be modified. This is the principle of sending and receiving CKBs with ETH addresses, as implemented in the CKB.pw product. Based on this, we can extend it to manage any asset issued on CKB with any public chain address, including naturally NFT assets like the DAS accounts. This is a reflection of the high compatibility of DAS as a cross-chain decentralized identity protocol.
 
 
 
@@ -277,7 +285,7 @@ The widespread use of DAS is dependent on active promotion by enthusiasts and in
 
 As shown above, DAS has a built-in cash reward mechanism for channels and invitees.
 
-If an account is priced at $`X`, a user initiating a CKB transaction directly will need to pay the equivalent of $`X` in CKBytes or other tokens to register. And you only need to pay `0.9X` for the wallet channel registration, and `0.8X` for the invitee information when you register. `0.8X` paid by the user, of which `0.1 * 0.8X` is paid to the channel, `0.1 * 0.8X` is paid to the invitee, and finally `0.8 * 0.8X` is injected into the revenue as a DAS system.
+If an account is priced at `X`, a user initiating a CKB transaction directly will need to pay the equivalent of ​`X` in CKBytes or other tokens to register. And you only need to pay `0.95X` for the wallet channel registration, and `0.95X` for the invitee information when you register. `0.95X` paid by the user, of which `0.1 * 0.95X` is paid to the channel, `0.1 * 0.95X` is paid to the invitee, and finally `0.8 * 0.95X` is injected into the revenue as a DAS system.
 
 
 
@@ -287,7 +295,7 @@ In the future, when DAS turns on decentralized governance, initiating governance
 
 ## 8. Vision
 
-DAS to the crypto world is like Email to the internet. 
+DAS to the crypto world is what Phone/Email to the internet. 
 
 
 
